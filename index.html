@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Darrell's Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,11 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +43,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+                <a href="#top" onclick=$("#menu-close").click();>Portfolio</a>
             </li>
             <li>
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
@@ -47,7 +52,7 @@
                 <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
             </li>
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
@@ -61,10 +66,10 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
+            <h1>Darrell Lim</h1>
+            <h3>Just a guy trying to strive for new challenges</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#about" class="btn btn-dark btn-lg">About Me</a>
         </div>
     </header>
 
@@ -73,8 +78,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2>About Me</h2>
+                    <hr class="small">
+                    <p class="lead"><h3>Challenges</h3></p>
+                    <p class="lead">To be honest I'm not a coding genius that you see on the internet, but I found myself able to learn its concept quite well. Let's just say I chose the right path by accident. Although people see programming to be a nerdy course, but some programming concepts requires high level of problem solving and logical thinking skills which are challenging to learn.</p>
+                    <p class="lead"><h3>Achievement</h3></p>
+                    <p class="lead">Achievement is something that keeps me going in this industry which I found in my internship. My tasks were just to develop a website and all I do everyday for the rest of my internship was just coding, but the final outcome of the project makes me think that hardwork does pay off. From time to time, people tend to think that they don't belong in this field. Same goes to me, but I think achievement is what kept me staying.
+                    </p>
+
                 </div>
             </div>
             <!-- /.row -->
@@ -88,60 +99,48 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>My Skills</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-laravel-plain icon"></i>
+                          <p class=" icon_text">Laravel</p>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-javascript-plain icon"></i>
+                          <p class="icon_text">JavaScript</p>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-css3-plain icon"></i>
+                          <p class="icon_text">CSS3</p>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-html5-plain icon"></i>
+                          <p class="icon_text">HTML5</p>
+                        </div>
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-jquery-plain icon"></i>
+                          <p class="icon_text">Jquery</p>
+                        </div>
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-php-plain icon"></i>
+                          <p class="icon_text">PHP</p>
+                        </div>
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-mysql-plain icon"></i>
+                          <p class="icon_text">MySQL</p>
+                        </div>
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-bootstrap-plain icon"></i>
+                          <p class="icon_text">Bootstrap</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-java-plain icon"></i>
+                          <p class="icon_text">Java</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                          <i class="devicon-cplusplus-plain icon"></i>
+                          <p class="icon_text">C++</p>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
@@ -154,11 +153,7 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
+
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -211,11 +206,15 @@
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <blockquote>
+                  <p>Life is always tough, but when you have eyes like mine. You won't see it.</p>
+                  <footer class="quote_name"><cite title="Source Title">Ian Moey Eu Wen</cite></footer>
+                </blockquote>
+                <!-- <div class="col-lg-12 text-center">
                     <h3>The buttons below are impossible to resist.</h3>
                     <a href="#" class="btn btn-lg btn-light">Click Me!</a>
                     <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </aside>
@@ -235,29 +234,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Darrell Lim</strong>
                     </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>You can contact me by emailing with this address: </p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fas fa-envelope fa-fw"></i> <a href="mailto:dapelim8@gmail.com">dapelim8@gmail.com</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://www.facebook.com/darrell.lim.923" target="_blank"><i class="fab fa-facebook fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/DLim97"><i class="fab fa-github fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <a href="skype:YourSkypeName?call"><i class="fab fa-skype fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Darrell Lim 2018</p>
                 </div>
             </div>
         </div>
