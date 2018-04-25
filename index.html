@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
 
 
@@ -36,6 +40,15 @@
 </head>
 
 <body>
+<script>
+     AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      once: true,
+    });
+</script>
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -65,11 +78,14 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Darrell Lim</h1>
-            <h3>Just a guy trying to strive for new challenges</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">About Me</a>
+        <div class="text-vertical-center bg_opacity">
+            
+                <h1 data-aos="fade-right">Darrell Lim</h1>
+                <h3 data-aos="fade-right">Just a guy trying to strive for new challenges</h3>
+                <br>
+                <a href="#about" class="btn btn-dark btn-lg" data-aos="fade-right">About Me</a>
+            
+            
         </div>
     </header>
 
@@ -79,11 +95,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
-                    <hr class="small">
-                    <p class="lead"><h3>Challenges</h3></p>
-                    <p class="lead">To be honest I'm not a coding genius that you see on the internet, but I found myself able to learn its concept quite well. Let's just say I chose the right path by accident. Although people see programming to be a nerdy course, but some programming concepts requires high level of problem solving and logical thinking skills which are challenging to learn.</p>
-                    <p class="lead"><h3>Achievement</h3></p>
-                    <p class="lead">Achievement is something that keeps me going in this industry which I found in my internship. My tasks were just to develop a website and all I do everyday for the rest of my internship was just coding, but the final outcome of the project makes me think that hardwork does pay off. From time to time, people tend to think that they don't belong in this field. Same goes to me, but I think achievement is what kept me staying.
+                    <hr class="small" data-aos="fade-left">
+                    <p class="lead" data-aos="fade-left"><h3 data-aos="fade-left">Challenges</h3></p>
+                    <p class="lead" data-aos="fade-left">To be honest I'm not a coding genius that you see on the internet, but I found myself able to learn its concept quite well. Let's just say I chose the right path by accident. Although people see programming to be a nerdy course, but some programming concepts requires high level of problem solving and logical thinking skills which are challenging to learn.</p>
+                    <p class="lead" data-aos="fade-left"><h3 data-aos="fade-left">Achievement</h3></p>
+                    <p class="lead" data-aos="fade-left">Achievement is something that keeps me going in this industry which I found in my internship. My tasks were just to develop a website and all I do everyday for the rest of my internship was just coding, but the final outcome of the project makes me think that hardwork does pay off. From time to time, people tend to think that they don't belong in this field. Same goes to me, but I think achievement is what kept me staying.
                     </p>
 
                 </div>
@@ -98,47 +114,47 @@
     <section id="services" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div class="col-lg-10 col-lg-offset-1 icons">
                     <h2>My Skills</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-laravel-plain icon"></i>
                           <p class=" icon_text">Laravel</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-javascript-plain icon"></i>
                           <p class="icon_text">JavaScript</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-css3-plain icon"></i>
                           <p class="icon_text">CSS3</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-html5-plain icon"></i>
                           <p class="icon_text">HTML5</p>
                         </div>
-                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-jquery-plain icon"></i>
                           <p class="icon_text">Jquery</p>
                         </div>
-                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-php-plain icon"></i>
                           <p class="icon_text">PHP</p>
                         </div>
-                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-mysql-plain icon"></i>
                           <p class="icon_text">MySQL</p>
                         </div>
-                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                         <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-bootstrap-plain icon"></i>
                           <p class="icon_text">Bootstrap</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right"> 
                           <i class="devicon-java-plain icon"></i>
                           <p class="icon_text">Java</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover">
+                        <div class="col-md-3 col-sm-6 col-xs-6 text-center icon_hover" data-aos="fade-right">
                           <i class="devicon-cplusplus-plain icon"></i>
                           <p class="icon_text">C++</p>
                         </div>
@@ -164,36 +180,35 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="portfolio-item">
+                            <div class="portfolio-item"  data-aos="zoom-in">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
+                            <div class="portfolio-item"  data-aos="zoom-in">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
+                            <div class="portfolio-item"  data-aos="zoom-in">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
+                            <div class="portfolio-item"  data-aos="zoom-in">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                   
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -206,9 +221,9 @@
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
-                <blockquote>
-                  <p>Life is always tough, but when you have eyes like mine. You won't see it.</p>
-                  <footer class="quote_name"><cite title="Source Title">Ian Moey Eu Wen</cite></footer>
+                <blockquote data-aos="fade-right" style="font-family: 'PT Mono', monospace;">
+                  <p>The Ultimate Measure Of A Man Is Not Where He Stands In Moments Of Comfort And Convenience, But Where He Stands At Times Of Challenge And Controversy.</p>
+                  <footer class="quote_name"><cite title="Source Title">Martin Luther King, Jr.</cite></footer>
                 </blockquote>
                 <!-- <div class="col-lg-12 text-center">
                     <h3>The buttons below are impossible to resist.</h3>
@@ -233,7 +248,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <div class="col-lg-10 col-lg-offset-1 text-center" data-aos="fade-down">
                     <h4><strong>Darrell Lim</strong>
                     </h4>
                     <p>You can contact me by emailing with this address: </p>
@@ -269,6 +284,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
+
+    
+    
+    
+    
+
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
@@ -319,6 +340,9 @@
             }
         }
     });
+
+
+
     // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
     // Disable scroll zooming and bind back the click event
